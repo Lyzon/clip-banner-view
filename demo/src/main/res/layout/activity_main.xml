@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context="com.lyzon.ui.clip_banner_view.main.MainActivity">
+
+    <com.lyzon.ui.clipbannerview.ClipBannerView
+        android:layout_marginTop="8dp"
+        android:id="@+id/banner_view"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:clipChildren="false" >
+
+    </com.lyzon.ui.clipbannerview.ClipBannerView>
+
+</LinearLayout>
