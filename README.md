@@ -50,8 +50,8 @@ in the banner view and root viewgroup...
 
 Step 4. In java code:
 
-            clipBannerView = (ClipBannerView) findViewById(R.id.banner_view);
-                                                        //context,banner's size,clickListener
+        clipBannerView = (ClipBannerView) findViewById(R.id.banner_view);
+                                                     
         clipBannerView.setAdapter(new ClipBannerAdapter(this,entityList.size(),this) {
             @Override
             public void setBannerContent(BannerItem item,int position){
@@ -90,6 +90,13 @@ to the bannerview and override the
 then 
 
     clipBannerView.start();
+    
+last in your listener
+
+    @Override
+    public void onBannerClick(int position){
+    	// do what you want...
+    }
     
 #### More
 
