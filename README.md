@@ -3,7 +3,7 @@ a simple and easy to used banner view for andorid
 
 it looks like this :
 
-![demo.gif](http://ac-whikwudz.clouddn.com/ee145ada67086845b866.gif)
+![demo.gif](http://upload-images.jianshu.io/upload_images/1898410-a8a555b17106b897.gif?imageMogr2/auto-orient/strip)
 
 #### How to use?
 
